@@ -21,7 +21,6 @@ Gazebo Simulator and necessary dependencies installed.
 
 # Installation
 Clone this repository:
-
     git clone <your-repo-link>  
     cd <repo-name>  
 Install dependencies (if any):
