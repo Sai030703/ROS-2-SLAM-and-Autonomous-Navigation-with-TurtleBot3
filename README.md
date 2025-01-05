@@ -34,8 +34,7 @@ Gazebo Simulator and necessary dependencies installed.
 # Installation
 Clone this repository:
 
-    git clone <your-repo-link>  
-    cd <repo-name>  
+    git clone https://github.com/Sai030703/ROS-2-SLAM-and-Autonomous-Navigation-with-TurtleBot3.git   
     
 Install dependencies (if any):
 
