@@ -5,8 +5,7 @@
 This project demonstrates autonomous navigation in a simulated environment using ROS 2 and TurtleBot3. It integrates SLAM Toolbox for mapping, Nav2 Stack for navigation, and Rviz2 for real-time visualization and interaction.
 
 # Map
-Uploading tb3_map.pgm…]()
-el. 
+
 
 
 
