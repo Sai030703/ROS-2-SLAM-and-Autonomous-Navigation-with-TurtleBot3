@@ -19,6 +19,15 @@ Prerequisites
 
     
     sudo apt install ros-<ros2-distro>-turtlebot3*  
+
+    Gazebo ROS Packages.
+    
+    sudo apt install ros-<distro-name>-gazebo-ros-pkgs
+
+    SLAM Toolbox
+
+    sudo apt install ros-<distro-name>-slam-toolbox
+    
     
 Gazebo Simulator and necessary dependencies installed.
 
