@@ -32,38 +32,13 @@ Install dependencies (if any):
 
     rosdep install --from-paths src --ignore-src -r -y  
     
-    Build the workspace:
-    
-    colcon build  
-    
+    Build the workspace:    
+    colcon build      
     source install/setup.bash  
  
 # How to Run
-Step 1: Launch the Simulation
-Launch the TurtleBot3 in Gazebo:
 
-    ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py  
-    
-Step 2: Create a Map
+To launch the navigation stack, use the following command:
 
-Run the SLAM Toolbox to generate a 2D map:
-
-
-    ros2 launch turtlebot3_cartographer cartographer.launch.py  
-    
-Save the map:
-
-    ros2 run nav2_map_server map_saver_cli -f ~/map  
-    
-Step 3: Launch Navigation
-Run the Nav2 stack for navigation:
-
-    ros2 launch nav2_bringup navigation_launch.py map:=~/map.yaml  
-    
-Step 4: Visualize and Navigate
-Open Rviz2 to monitor the robot’s progress:
-
-    ros2 launch nav2_bringup rviz_launch.py  
-    
-Set single or multiple navigation goals in Rviz2.
+    ros2 launch navigation navigation.launch.py
 
