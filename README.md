@@ -14,17 +14,17 @@ This project demonstrates autonomous navigation in a simulated environment using
 
 # Getting Started
 Prerequisites
-    ROS 2 (Rolling/Humble/Foxy) installed on your system.
-    TurtleBot3 Simulation Packages
+ROS 2 (Rolling/Humble/Foxy) installed on your system.
+TurtleBot3 Simulation Packages
 
     
     sudo apt install ros-<ros2-distro>-turtlebot3*  
 
-    Gazebo ROS Packages.
+Gazebo ROS Packages.
     
     sudo apt install ros-<distro-name>-gazebo-ros-pkgs
 
-    SLAM Toolbox
+ SLAM Toolbox
 
     sudo apt install ros-<distro-name>-slam-toolbox
     
