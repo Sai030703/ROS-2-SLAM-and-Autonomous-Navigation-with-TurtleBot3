@@ -6,7 +6,7 @@ This project demonstrates autonomous navigation in a simulated environment using
 
 # Features
 
-*2D Mapping: Created a 2D map using the Cartographer node from the SLAM Toolbox.
-*Autonomous Navigation: Executed single-point and multi-pose navigation tasks.
-Visualization: Monitored and interacted with the robot via Rviz2.
-Simulation: Entirely simulated in the Gazebo environment using the TurtleBot3 robot model.
+* 2D Mapping: Created a 2D map using the Cartographer node from the SLAM Toolbox.
+* Autonomous Navigation: Executed single-point and multi-pose navigation tasks.
+* Visualization: Monitored and interacted with the robot via Rviz2.
+* Simulation: Entirely simulated in the Gazebo environment using the TurtleBot3 robot model.
