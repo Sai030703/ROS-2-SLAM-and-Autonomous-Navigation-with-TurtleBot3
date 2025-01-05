@@ -32,9 +32,10 @@ Install dependencies (if any):
 
     rosdep install --from-paths src --ignore-src -r -y  
     
-    Build the workspace:    
-    colcon build      
+    Build the workspace: cd <your_ros2_ws>
+    colcon build
     source install/setup.bash  
+    
  
 # How to Run
 
